@@ -1,0 +1,32 @@
+HashSet
+
+Java HashSet class is used to create a collection 
+that uses a hash table for storage. 
+It inherits the AbstractSet class and 
+implements Set interface.
+
+
+HashSet stores the elements by using a mechanism 
+called hashing.
+
+HashSet contains unique elements only.
+
+HashSet allows maximum one null value .
+
+HashSet class is non synchronized.
+
+HashSet doesn't maintain the insertion order. 
+Here, elements are inserted on the basis of their 
+hashcode.
+
+HashSet is the best approach for search operations.
+The initial default capacity of HashSet is 16, 
+and the load factor(fill ratio) is 0.75.
+
+
+
+Constructor	
+1)	HashSet()	It is used to construct a default HashSet.
+2)	HashSet(int capacity)	It is used to initialize the capacity of the hash set to the given integer value capacity. The capacity grows automatically as elements are added to the HashSet.
+3)	HashSet(int capacity, float loadFactor)	It is used to initialize the capacity of the hash set to the given integer value capacity and the specified load factor.
+4)	HashSet(Collection c)	It is used to initialize the hash set by using the elements of the collection c.

@@ -1,0 +1,54 @@
+Vector Class 
+
+package : java.util package 
+
+Vector is like the dynamic array which can 
+grow or shrink its size.
+
+new size = (3/2 * old size) +1
+specify our own increment value (15)
+default size 10 25 50 65
+
+Legacy class
+depracate 
+
+
+
+It is Synchronized(Multi-threading)
+It Contains legacy methods(which are not a part of
+Collection Framework anymore)
+
+Unlike array, we can store n-number of 
+elements in it as there is no size limit. 
+
+It is a part of Java Collection framework 
+since Java 1.2. --java 14
+
+It is found in the java.util package 
+
+It implements the List interface, 
+so we can use all the methods of List interface here.
+
+
+
+
+
+1)	Vector()	It constructs an empty vector with the default capacity as 10.
+2)	Vector(int initialCapacity)	It constructs an empty vector with the specified initial capacity and with its capacity increment equal to zero.
+3)	Vector(int initialCapacity, int capacityIncrement)	It constructs an empty vector with the specified initial capacity and capacity increment.
+4)	Vector( Collection c)	It constructs a vector that contains the elements of a collection c.
+
+
+
+methods
+addElement() same as add() - add at last place
+insertElementAt(Object, index) - insert any position
+				("Alice",2)
+elementAt(int index)  same as get(index)
+					ArrayIndexOutOfBoundsException- This method has thrown an exception if the index is out of range i.e. index < 0 || index >= size().
+
+firstElement() - return the first element
+lastElement() - return the first element
+
+removeElement() - removes first element
+removeElementAt(int index) - remove any position

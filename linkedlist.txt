@@ -1,0 +1,53 @@
+Java LinkedList class uses a doubly linked list 
+to store the elements.
+ 
+
+It provides a linked-list data structure. 
+
+It inherits the AbstractList class and 
+implements List and Deque interfaces.
+
+class LinkedList extends AbstractList implements List,Deque
+ 
+
+Java LinkedList class can contain duplicate elements.
+Java LinkedList class maintains insertion order.
+
+
+
+In Java LinkedList class, manipulation is fast 
+because no shifting needs to occur.
+
+Java LinkedList class can be used as a 
+list, stack or queue.
+
+
+Constructors
+
+LinkedList()
+LinkedList(Collection c)
+
+LinkedList mylist=new LinkedList()
+
+LinkedList mylist=new LinkedList(a1)
+
+
+methods
+void addFirst(Object o)
+void addLast(Object o)
+Object getFirst()//read only
+Object getLast() //read only
+Object element()  - It is used to retrieve the first element of a list.
+Object get(int index)
+int indexOf(Object o) - It is used to return the index in a list of the first occurrence
+
+int lastIndexOf(Object o) - It is used to return the index in a list of the last occurrence
+
+
+Object peek()		It retrieves the first element of a list
+Object peekFirst()	It retrieves the first element of a list or returns null if a list is empty.
+Object peekLast()	It retrieves the last element of a list or returns null if a list is empty.
+
+Object poll()		It retrieves and removes the first element of a list.
+Object pollFirst()	It retrieves and removes the first element of a list, or returns null if a list is empty.
+Object pollLast()	It retrieves and removes the last element of a list, or returns null if a list is empty.

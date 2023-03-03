@@ -1,0 +1,48 @@
+Java Hashtable class
+
+package:  java.util.Hashtable
+
+Java Hashtable class implements a 
+hashtable, which maps keys to values. 
+
+It inherits Dictionary class and 
+implements the Map interface.
+
+
+A Hashtable is an array of a list. 
+
+A Hashtable contains values based on the (key K,value V) pair
+K: It is the type of keys maintained by this map.
+V: It is the type of mapped values.
+
+Java Hashtable class contains unique elements.
+
+Java Hashtable class doesn't allow 
+null key or value.
+
+Java Hashtable class is synchronized.
+
+The initial default capacity of Hashtable class 
+is 11 whereas loadFactor is 0.75.
+
+default capacity 11
+default loadFactor 0.75
+
+
+
+
+Constructor	
+Hashtable()	It creates an empty hashtable having the initial default capacity and load factor.
+Hashtable(int capacity)	It accepts an integer parameter and creates a hash table that contains a specified initial capacity.
+Hashtable(int capacity, float loadFactor)	It is used to create a hash table having the specified initial capacity and loadFactor.
+Hashtable(Map m)	It creates a new hash table with the same mappings as the given Map.
+
+Methods 
+put(K key, V value);
+remove(Object key)
+get(Object key)
+
+key	  value
+Alice 800
+
+ht.remove("Alice");

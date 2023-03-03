@@ -1,0 +1,41 @@
+ARRAYLIST
+
+Java ArrayList class uses a dynamic array for storing the elements.
+It is like an array, but there is no size limit.(Growable in nature) 
+formula:
+new size = (old size * 1.5) + 1
+We can add or remove elements anytime. 
+it is much more flexible than the traditional array. 
+It is found in the java.util package.
+
+The ArrayList in Java can have the duplicate elements also. 
+It implements the List interface 
+The ArrayList maintains the insertion order internally.
+
+It inherits the AbstractList class and implements List interface.
+
+constructor od ArrayList
+
+1. ArrayList()					//default - will create arraylist of default capacity (10)
+ArrayList students=new ArrayList()
+2. ArrayList(int capacity)
+ArrayList students=new ArrayList(60)
+3. ArrayList(Collection c) 
+LinkedList mystuds=new LinkedList();
+ArrayList students=new ArrayList(mystuds);
+
+
+methods od ArrayList 
+ensureCapacity(int requiredCapacity)
+Object get(int index)
+int indexOf(Object o) : firsr occurance
+void trimToSize()
+
+
+
+Iterator itr=list.iterator();		//getting the Iterator  
+  while(itr.hasNext())				//check if iterator has the elements  
+  {			
+   System.out.println(itr.next()) 	//printing the element and move to next  
+  }
+  

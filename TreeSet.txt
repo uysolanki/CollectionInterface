@@ -1,0 +1,48 @@
+TreeSet class
+
+TREE == SORTING
+single null also not allowed ( NULL NOT ALLOWED)
+
+package :  java.util.TreeSet
+
+TreeSet inherits AbstractSet
+implements the NavigableSet,Cloneable,Serializable 
+
+
+The objects of the TreeSet class are stored in 
+ascending order.
+
+Java TreeSet class contains unique elements only 
+like HashSet.
+
+Java TreeSet class access and retrieval times 
+are quiet fast.
+
+Java TreeSet class doesn't allow null element.
+
+Java TreeSet class is non synchronized.
+
+Java TreeSet class maintains ascending order.
+
+
+
+ 
+
+Constructor
+TreeSet()	It is used to construct an empty tree set that will be sorted in ascending order according to the natural order of the tree set.
+default size,defualt sorting order(asc)
+TreeSet(Collection c)	It is used to build a new tree set that contains the elements of the collection c.
+TreeSet(Comparator comp)	It is used to construct an empty tree set that will be sorted according to given comparator.
+user defined sorting order
+TreeSet(SortedSet  ss)	It is used to build a TreeSet that contains the elements of the given SortedSet.
+
+
+Methods
+
+Object higher(Object o)	It returns the closest greatest element of the specified element from the set, or null there is no such element.
+Object lower(Object o)	It returns the closest least element of the specified element from the set, or null there is no such element.
+Object pollFirst()	It is used to retrieve and remove the lowest(first) element.
+Object pollLast()	It is used to retrieve and remove the highest(last) element.
+Object first()	It returns the first (lowest) element currently in this sorted set.
+Object last()	It returns the last (highest) element currently in this sorted set.
+int size()	It returns the number of elements in this set.
